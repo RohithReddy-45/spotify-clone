@@ -1,0 +1,47 @@
+{
+  "name": "spotify-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slider": "^1.1.2",
+    "@stripe/stripe-js": "^2.2.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/auth-helpers-react": "^0.4.2",
+    "@supabase/auth-ui-react": "^0.4.6",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.39.0",
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.39",
+    "@types/react-dom": "18.2.17",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.54.0",
+    "eslint-config-next": "14.0.3",
+    "next": "14.0.3",
+    "postcss": "8.4.31",
+    "query-string": "^8.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-spinners": "^0.13.8",
+    "stripe": "^14.7.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss": "3.3.5",
+    "typescript": "5.3.2",
+    "uniqid": "^5.4.0",
+    "use-sound": "^4.0.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/uniqid": "^5.3.4",
+    "supabase": "^1.115.4"
+  }
+}
